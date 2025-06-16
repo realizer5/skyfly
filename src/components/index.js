@@ -5,5 +5,7 @@ import Destination from "./Destination";
 import Hero from "./Hero";
 import Destinationdata from "./Destinationdata";
 import Tripdata from "./Tripdata";
+import AboutUs from "./AboutUs";
+import ContactForm from "./ContactForm";
 
-export { Header, Footer, Trip, Destination, Hero, Destinationdata, Tripdata }
+export { Header, Footer, Trip, Destination, Hero, Destinationdata, Tripdata, AboutUs, ContactForm }
