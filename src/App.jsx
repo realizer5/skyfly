@@ -1,11 +1,11 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router";
 import { Home, About, Service, Contact } from "./routes";
 import { Header, Footer } from "./components";
 
 function App() {
 
     return (
-        <div className="text-center **:font-['Popins',sans-serif]">
+        <div className="text-center">
             <Header />
             <Routes>
                 <Route index element={<Home />} />

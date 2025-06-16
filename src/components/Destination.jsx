@@ -13,7 +13,7 @@ export default function Destination() {
                     imgs={[des1, des2]}
                 />
                 <Destinationdata className="flex items-center justify-between mt-16 flex-row-reverse"
-                    heading="Araku Vally, AndhraPradesh"
+                    heading="Araku Valley, AndhraPradesh"
                     text="Araku Valley is a comparetively unexplored hill station visited by locals as a weekend getaway and is situated some 120 kilometers away from Vishakhapatnam. If you're a tourist looking for exclusivity and tranquility, Vistadome train leaves Vishakhapatnam at 6.50 AM, making way through 58 tunnels and passing over 84 bridges making way through the breathtaking landscape to reach Araku in approximately in 5 hours, go, catch that!"
                     imgs={[des21, des22]}
                 />

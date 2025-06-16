@@ -6,7 +6,7 @@ export default function Destinationdata({ className = "", imgs = [], heading = "
                 <p>{text}</p>
             </div>
             <div className="relative w-1/2 flex justify-between -z-10">
-                {imgs?.map((img, index) => (<img key={img} src={img} alt="" className={`w-[49%] h-90 object-cover rounded shadow-lg shadow-gray-500 ${index % 2 === 0 && "absolute -top-10 right-0"}`} />))}
+                {imgs?.map((img, index) => (<img key={img} src={img} alt="" className={`w-[49%] h-90 object-cover rounded-md shadow-lg shadow-gray-500 ${index % 2 === 0 && "absolute -top-10 right-0"}`} />))}
             </div>
         </div>
     )
