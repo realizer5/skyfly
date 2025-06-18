@@ -1,14 +1,14 @@
 
 export default function Footer() {
     return (
-        <div className="py-16 px-24 bg-black text-white">
+        <footer className="py-16 px-8 md:px-24 bg-black text-white">
             <div className="flex items-center text-start justify-between flex-wrap">
                 <div>
                     <h1 className="font-bold text-4xl">SKYFLY</h1>
                     <p>Choose Your Favourite Destination</p>
                 </div>
                 <div>
-                    <a href="/" className="*:text-white *:ms-4 *:hover:text-cyan-600 inline-flex *:h-9 *:w-9">
+                    <a href="/" className="*:text-white *:mt-4 *:me-4 md:*:ms-4 *:hover:text-cyan-600 inline-flex *:h-9 *:w-9">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="currentColor" fill="none">
                             <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
                             <path d="M16.9265 8.02637H13.9816C12.9378 8.02637 12.0894 8.86847 12.0817 9.91229L11.9964 21.4268M10.082 14.0017H14.8847" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -29,7 +29,7 @@ export default function Footer() {
                     </a>
                 </div>
             </div>
-            <div className="pt-8 text-start flex justify-between flex-wrap">
+            <div className="pt-8 text-start flex justify-between flex-wrap [&_div]:w-1/2 md:[&_div]:w-auto">
                 <div className="flex flex-col [&_a]:text-gray-50 [&_a]:pb-1 [&_a]:text-lg">
                     <h4 className="text-xl pt-4 pb-3 font-bold">Project</h4>
                     <a href="/">Changelog</a>
@@ -57,7 +57,7 @@ export default function Footer() {
                     <a href="/">License</a>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }
 

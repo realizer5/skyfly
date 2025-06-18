@@ -3,10 +3,10 @@ import { Tripdata } from "./"
 
 export default function Trip() {
     return (
-        <div className="my-16 mx-24 text-zinc-800">
+        <div className="my-16 mx-8 lg:mx-24 text-zinc-800">
             <h1 className="text-5xl font-bold pb-2">Recent Trips</h1>
             <p>You can discover unique destinations using google maps</p>
-            <div className="mt-12 flex justify-between">
+            <div className="mt-12 flex justify-between lg:flex-row flex-col">
                 <Tripdata img={des21}
                     heading="Trip to Araku Valley"
                     text="Araku Valley is a comparatively unexplored hill station mostly visited by locals as a weekend getaway and is situated some 120 kilometers away from Vishakhapatnam. If you're a tourist looking for exclusivity and tranquillity, Vistadome train leaves Vishakhapatnam at 6:50 AM, making way through 58 tunnels and passing over 84 bridges making way through the breathtaking landscape to reach Araku in approximately 5 hours, go, catch that!"

@@ -7,5 +7,6 @@ import Destinationdata from "./Destinationdata";
 import Tripdata from "./Tripdata";
 import AboutUs from "./AboutUs";
 import ContactForm from "./ContactForm";
+import ScrollToTop from "./ScrollToTop";
 
-export { Header, Footer, Trip, Destination, Hero, Destinationdata, Tripdata, AboutUs, ContactForm }
+export { Header, Footer, Trip, Destination, Hero, Destinationdata, Tripdata, AboutUs, ContactForm, ScrollToTop }

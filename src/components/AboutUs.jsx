@@ -1,6 +1,6 @@
 export default function AboutUs() {
     return (
-        <div className="my-16 mx-24 text-start [&_h1]:text-4xl [&_h1]:font-bold [&_h1]:pb-4 [&_p]:pb-8">
+        <div className="my-16 md:mx-24 mx-8 text-start [&_h1]:text-4xl [&_h1]:font-bold [&_h1]:pb-4 [&_p]:pb-8">
             <h1>Our Mission</h1>
             <p>
                 Our Mission is to touch the horizon where our capabilities may
